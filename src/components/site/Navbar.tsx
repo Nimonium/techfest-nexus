@@ -68,7 +68,7 @@ export function Navbar() {
 
         <div className="hidden items-center justify-end gap-4 lg:flex">
           <Link
-            to="/register"
+            to="/login"
             className="font-mono text-[0.7rem] tracking-[0.18em] text-muted-foreground uppercase transition-colors hover:text-foreground"
           >
             Login
@@ -127,7 +127,7 @@ export function Navbar() {
             </nav>
             <div className="mt-8 flex flex-col gap-3">
               <Link
-                to="/register"
+                to="/login"
                 onClick={() => setOpen(false)}
                 className="bg-signal px-6 py-4 text-center font-mono text-[0.7rem] tracking-[0.22em] text-primary-foreground uppercase"
               >

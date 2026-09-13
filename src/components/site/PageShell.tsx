@@ -9,11 +9,13 @@ export function PageShell({
   title,
   intro,
   children,
+  showRegisterCta = true,
 }: {
   tag: string;
   title: ReactNode;
   intro: string;
   children?: ReactNode;
+  showRegisterCta?: boolean;
 }) {
   return (
     <div className="min-h-screen bg-background">
@@ -35,9 +37,11 @@ export function PageShell({
             </Reveal>
             <Reveal delay={0.24}>
               <div className="mt-10 flex flex-wrap gap-4">
-                <Cta to="/register">
-                  Register Now <span aria-hidden>→</span>
-                </Cta>
+                {showRegisterCta && (
+                  <Cta to="/register">
+                    Register Now <span aria-hidden>→</span>
+                  </Cta>
+                )}
                 <Cta to="/" variant="outline">
                   Back to home
                 </Cta>
