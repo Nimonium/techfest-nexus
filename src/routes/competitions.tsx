@@ -16,6 +16,8 @@ export const Route = createFileRoute("/competitions")({
         property: "og:description",
         content: "Build. Break. Rebuild. The flagship challenges of Techfest '26.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: CompetitionsPage,

@@ -17,6 +17,8 @@ export const Route = createFileRoute("/speakers")({
         property: "og:description",
         content: "The minds shaping tomorrow, on stage at IIT Bombay.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: SpeakersPage,

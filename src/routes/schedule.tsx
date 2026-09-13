@@ -16,6 +16,8 @@ export const Route = createFileRoute("/schedule")({
         property: "og:description",
         content: "The day-by-day running order for Techfest '26 at IIT Bombay.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: SchedulePage,

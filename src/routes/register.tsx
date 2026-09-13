@@ -17,6 +17,8 @@ export const Route = createFileRoute("/register")({
         property: "og:description",
         content: "One registration, access to every arena of Techfest '26.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: RegisterPage,

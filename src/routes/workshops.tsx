@@ -16,6 +16,8 @@ export const Route = createFileRoute("/workshops")({
         property: "og:description",
         content: "Practitioner-led, hands-on sessions across three days at IIT Bombay.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: WorkshopsPage,

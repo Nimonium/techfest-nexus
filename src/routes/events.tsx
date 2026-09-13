@@ -16,6 +16,8 @@ export const Route = createFileRoute("/events")({
         property: "og:description",
         content: "Six arenas of engineering, code, machines and ideas at IIT Bombay.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: EventsPage,

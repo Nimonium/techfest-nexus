@@ -85,10 +85,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { name: "author", content: "Techfest, IIT Bombay" },
       { property: "og:title", content: "Techfest ’26 — IIT Bombay" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      {
+        property: "og:description",
+        content: "Asia's largest science and technology festival at IIT Bombay.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
