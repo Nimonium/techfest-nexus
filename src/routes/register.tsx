@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-import { ItemList, PageShell } from "@/components/site/PageShell";
+import { AccessForm } from "@/components/site/AccessForm";
+import { PageShell } from "@/components/site/PageShell";
 
 export const Route = createFileRoute("/register")({
   head: () => ({
@@ -16,31 +17,12 @@ export const Route = createFileRoute("/register")({
         property: "og:description",
         content: "One registration, access to every arena of Techfest '26.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: RegisterPage,
 });
-
-const items = [
-  {
-    code: "R-01",
-    title: "Create Your ID",
-    meta: "Step one",
-    body: "One Techfest ID gives you access to every competition, workshop and show.",
-  },
-  {
-    code: "R-02",
-    title: "Pick Your Arenas",
-    meta: "Step two",
-    body: "Choose competitions and workshops; team entries add members by ID.",
-  },
-  {
-    code: "R-03",
-    title: "Confirm & Arrive",
-    meta: "Step three",
-    body: "Passes, accommodation options and the running order land in your inbox.",
-  },
-];
 
 function RegisterPage() {
   return (
@@ -54,8 +36,9 @@ function RegisterPage() {
         </>
       }
       intro="Registration for the 2026 edition opens this season. This concept page shows the flow participants will follow."
+      showRegisterCta={false}
     >
-      <ItemList items={items} />
+      <AccessForm mode="register" />
     </PageShell>
   );
 }

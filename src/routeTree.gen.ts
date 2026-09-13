@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as CompetitionsRouteImport } from './routes/competitions'
 import { Route as EventsRouteImport } from './routes/events'
+import { Route as LoginRouteImport } from './routes/login'
 import { Route as RegisterRouteImport } from './routes/register'
 import { Route as ScheduleRouteImport } from './routes/schedule'
 import { Route as SpeakersRouteImport } from './routes/speakers'
@@ -36,6 +37,11 @@ const CompetitionsRoute = CompetitionsRouteImport.update({
 const EventsRoute = EventsRouteImport.update({
   id: '/events',
   path: '/events',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LoginRoute = LoginRouteImport.update({
+  id: '/login',
+  path: '/login',
   getParentRoute: () => rootRouteImport,
 } as any)
 const RegisterRoute = RegisterRouteImport.update({
@@ -64,6 +70,7 @@ export interface FileRoutesByFullPath {
   '/about': typeof AboutRoute
   '/competitions': typeof CompetitionsRoute
   '/events': typeof EventsRoute
+  '/login': typeof LoginRoute
   '/register': typeof RegisterRoute
   '/schedule': typeof ScheduleRoute
   '/speakers': typeof SpeakersRoute
@@ -74,6 +81,7 @@ export interface FileRoutesByTo {
   '/about': typeof AboutRoute
   '/competitions': typeof CompetitionsRoute
   '/events': typeof EventsRoute
+  '/login': typeof LoginRoute
   '/register': typeof RegisterRoute
   '/schedule': typeof ScheduleRoute
   '/speakers': typeof SpeakersRoute
@@ -85,6 +93,7 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/competitions': typeof CompetitionsRoute
   '/events': typeof EventsRoute
+  '/login': typeof LoginRoute
   '/register': typeof RegisterRoute
   '/schedule': typeof ScheduleRoute
   '/speakers': typeof SpeakersRoute
@@ -97,6 +106,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/competitions'
     | '/events'
+    | '/login'
     | '/register'
     | '/schedule'
     | '/speakers'
@@ -107,6 +117,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/competitions'
     | '/events'
+    | '/login'
     | '/register'
     | '/schedule'
     | '/speakers'
@@ -117,6 +128,7 @@ export interface FileRouteTypes {
     | '/about'
     | '/competitions'
     | '/events'
+    | '/login'
     | '/register'
     | '/schedule'
     | '/speakers'
@@ -128,6 +140,7 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   CompetitionsRoute: typeof CompetitionsRoute
   EventsRoute: typeof EventsRoute
+  LoginRoute: typeof LoginRoute
   RegisterRoute: typeof RegisterRoute
   ScheduleRoute: typeof ScheduleRoute
   SpeakersRoute: typeof SpeakersRoute
@@ -162,6 +175,13 @@ declare module '@tanstack/react-router' {
       path: '/events'
       fullPath: '/events'
       preLoaderRoute: typeof EventsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/login': {
+      id: '/login'
+      path: '/login'
+      fullPath: '/login'
+      preLoaderRoute: typeof LoginRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/register': {
@@ -200,6 +220,7 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   CompetitionsRoute: CompetitionsRoute,
   EventsRoute: EventsRoute,
+  LoginRoute: LoginRoute,
   RegisterRoute: RegisterRoute,
   ScheduleRoute: ScheduleRoute,
   SpeakersRoute: SpeakersRoute,
