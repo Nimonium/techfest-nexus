@@ -1,706 +1,566 @@
-# Techfest Nexus
+# ⚡ Techfest IIT Bombay — Futuristic Landing Page
 
-Create a high-end, futuristic landing page redesign for Techfest, IIT Bombay — Asia's largest science and technology festival.
+> **THE FUTURE STARTS HERE.**
 
-IMPORTANT:
+A cinematic, futuristic landing page concept for **Techfest, IIT Bombay**, designed to present the festival as a next-generation hub for technology, innovation, competitions, robotics and ideas.
 
-This is a DESIGN/DEVELOPMENT CONCEPT for Techfest.
+This project reimagines the digital experience of Techfest through a **dark, typography-first, high-contrast interface with immersive 2D motion** — without using 3D assets or WebGL.
 
-Do NOT simply copy the existing techfest.org website.
+> **Note:** This is an independent design/development concept and is **not the official Techfest website**.
 
-Take inspiration from Techfest's identity, but create a significantly more modern, visually impressive and original experience.
+---
 
-No 3D assets or WebGL 3D objects.
+## ✨ Concept
 
-Use 2D graphics, typography, gradients, particles, SVG illustrations, image treatments, grids, animations and video-like visual effects instead.
+Techfest is more than a technology festival.
 
-The website must be fully responsive for desktop, tablet and mobile.
+It is a space where students compete, engineers experiment, innovators collaborate and ideas move from imagination to reality.
 
-Make it feel like a website worthy of a major international technology festival.
+This landing page was created around that idea:
 
-==================================================
+> **MORE THAN A FESTIVAL.
+> A LAUNCHPAD FOR THE FUTURE.**
 
-VISUAL DIRECTION
-==================================================
+The goal was to create a digital experience that feels:
 
-Create a futuristic "technology meets festival" visual language.
+* Futuristic
+* Technical
+* Cinematic
+* Experimental
+* Premium
+* Youth-driven
+* IIT Bombay-inspired
 
-Overall aesthetic:
+Instead of relying on heavy 3D experiences, the website creates depth and immersion using **typography, motion, grids, particles, circuit traces, scanning effects and carefully designed 2D graphics.**
 
-Dark premium background
+---
 
-Deep black / charcoal base
+# 🎯 Design Goals
 
-Electric cyan, blue, violet and occasional neon green accents
+The project focuses on five major design principles:
 
-High contrast white typography
+### 01 — Typography First
 
-Subtle grain/noise texture
+Large editorial headlines create the primary visual impact.
 
-Thin technical grid lines
+### 02 — 2D Immersion
 
-Glowing borders
+The experience uses animated grids, particles, circuit traces, signal waves and SVG graphics instead of 3D models.
 
-Large editorial typography
+### 03 — Technical Interface
 
-Asymmetric layouts
+Monospace HUD labels, coordinates, system indicators and technical metadata create a futuristic engineering aesthetic.
 
-Futuristic HUD-inspired UI elements
+### 04 — Asymmetric Layouts
 
-Minimal but powerful animations
+The layout avoids repetitive card grids and uses asymmetric compositions, large typography and generous whitespace.
 
-Lots of visual hierarchy and whitespace
+### 05 — Performance
 
-Avoid making it look like a generic SaaS landing page
+Animations are designed to remain lightweight and responsive across desktop and mobile devices.
 
-The visual inspiration should feel like:
+---
 
-A global technology conference
+# 🖥️ Website Structure
 
-A futuristic science festival
+The project is built as a single scrolling landing page with supporting secondary routes.
 
-IIT Bombay innovation culture
+## 🧭 Navigation
 
-Robotics + AI + space + engineering
+Sticky transparent navigation with:
 
-Cyberpunk-inspired interface, but still professional
+* TECHFEST / IIT BOMBAY branding
+* Events
+* Competitions
+* Workshops
+* Speakers
+* Schedule
+* About
+* Login
+* Register Now
 
-Premium Apple/Linear/Vercel-level UI polish
+The navigation transitions into a darker blurred interface when the user scrolls.
 
-DO NOT use:
+---
 
-3D rendered objects
+## 🌌 Hero
 
-Generic corporate stock illustrations
+### THE FUTURE STARTS HERE.
 
-Excessive glassmorphism
+The hero introduces:
 
-Excessive rounded cards
+**TECHFEST '26 / IIT BOMBAY**
 
-Cartoon illustrations
+with:
 
-Template-looking sections
+* Large display typography
+* Animated particle field
+* Circuit traces
+* Signal waves
+* Orbit arcs
+* Scanning effects
+* Technical HUD labels
+* Event information
+* Primary and secondary CTAs
 
-Huge amounts of unnecessary text
+The entire visual system is created using **2D graphics and CSS/SVG animation**.
 
-==================================================
-2. NAVIGATION
+---
 
-Create a sticky transparent navigation bar.
+## 🔬 Introduction
 
-Left:
-TECHFEST
-IIT BOMBAY
+### MORE THAN A FESTIVAL.
 
-Center/right navigation:
-Events
-Competitions
-Workshops
-Speakers
-Schedule
-About
+### A LAUNCHPAD FOR THE FUTURE.
 
-Right:
-LOGIN
-REGISTER NOW
+An editorial introduction explaining the role of Techfest as a platform for students, innovators, engineers and technology enthusiasts.
 
-The navbar should become slightly opaque with a blur effect when scrolling.
+The section combines:
 
-On mobile, use a clean hamburger menu.
+* Large typography
+* Technical metadata
+* Animated SVG graphics
+* Editorial spacing
+* CTA interaction
 
-==================================================
-3. HERO SECTION
+---
 
-Make the hero section the strongest part of the website.
+## ⚔️ Event Categories
 
-Use a full-screen dark visual composition.
+### ENTER THE ARENA
 
-Headline:
+The experience introduces six major categories:
 
-"THE FUTURE
-STARTS HERE."
+1. Competitions
+2. Robotics
+3. Hackathons
+4. Workshops
+5. Lectures
+6. Exhibitions
 
-Small eyebrow text:
+Each category uses interactive motion, numbered navigation and technical visual elements.
 
-TECHFEST '26
-IIT BOMBAY
+---
 
-Supporting text:
+## 🏆 Featured Competitions
 
-"Where ideas become inventions, technology becomes experience, and the next generation builds tomorrow."
+### BUILD. BREAK. REBUILD.
 
-Primary CTA:
-REGISTER NOW →
+A dedicated competition showcase featuring categories such as:
 
-Secondary CTA:
-EXPLORE EVENTS
+* Robotics
+* AI & Coding
+* Aeromodelling
+* Drone Challenge
+* Innovation
+* Engineering
 
-Hero visual:
-Create an abstract 2D futuristic composition using:
+Each competition includes:
 
-animated glowing lines
+* Category
+* Description
+* Status/deadline
+* Interactive CTA
 
-technical grids
+---
 
-particles
+## 🤖 Robotics Feature
 
-orbit-like line patterns
+### WHERE MACHINES COME ALIVE.
 
-electronic signal waves
+A large immersive section focused on robotics and engineering.
 
-animated typography
+The visual system uses:
 
-subtle scanning effects
+* Circuit paths
+* Sensor points
+* Data streams
+* Scanning lines
+* Technical coordinates
+* Animated signals
 
-abstract circuit patterns
+No 3D models or WebGL are used.
 
-small floating technical labels
+---
 
-Do NOT use a 3D object.
+## 🧠 Speakers
 
-Add a small bottom-left indicator:
+### THE MINDS SHAPING TOMORROW
 
-SCROLL TO EXPLORE ↓
+An editorial speaker showcase using:
 
-Add a small live-style information panel:
+* Monochrome imagery
+* Cyan duotone treatment
+* Technical metadata
+* Hover interactions
+* Strong typography
 
-TECHFEST '26
-IIT BOMBAY
-DECEMBER 2026
+Speaker information is presented as fictional placeholder content where necessary and should be replaced with official information before any public/official use.
 
-Make the hero feel cinematic.
+---
 
-==================================================
-4. FLOATING TECHNICAL ELEMENTS
+## ⏱️ Timeline
 
-Throughout the page, add subtle futuristic interface details.
+A vertical interactive timeline representing the Techfest experience:
 
-Examples:
+**01 — DISCOVER**
 
-SYSTEM STATUS
-ONLINE
+**02 — COMPETE**
 
-LOCATION
-IIT BOMBAY / MUMBAI
+**03 — CREATE**
 
-EVENTS
-100+
+**04 — CONNECT**
 
-PARTICIPANTS
-50K+
+**05 — EXPERIENCE**
 
-These should appear as small monospace labels, not huge statistics.
+The progress line fills as the user scrolls through the section.
 
-==================================================
-5. INTRODUCTION SECTION
+---
 
-Create an editorial section introducing Techfest.
+## 🕰️ Techfest Legacy
 
-Heading:
+### YEARS OF BUILDING THE FUTURE.
 
-"MORE THAN A FESTIVAL.
-A LAUNCHPAD FOR THE FUTURE."
+A horizontal milestone timeline highlighting the evolution of Techfest.
 
-Text:
+The concept includes milestones spanning:
 
-"Techfest at IIT Bombay brings together students, innovators, engineers, researchers, creators and technology enthusiasts to explore the ideas shaping tomorrow."
+**2002 → 2015 → 2018 → 2020 → 2023 → 2025**
 
-Create an asymmetric layout with:
+The section demonstrates how technology, innovation and large-scale experiences have evolved throughout Techfest's history.
 
-large typography
+---
 
-short paragraph
+## 📊 Impact
 
-animated technical graphic
+The numbers section highlights the scale of the festival through animated counters:
 
-small metadata labels
+| Metric              | Value |
+| ------------------- | ----: |
+| Participants        |  50K+ |
+| Events              |  100+ |
+| Institutions        | 1000+ |
+| Years of Innovation |   20+ |
 
-Include a button:
+These figures are presented as design/content placeholders and should be verified against current official Techfest information before production use.
 
-DISCOVER TECHFEST →
+---
 
-==================================================
-6. EVENTS SECTION
+# 📱 Responsive Experience
 
-Create an immersive Events section.
+The website is designed for:
 
-Heading:
+* 🖥️ Desktop
+* 💻 Laptop
+* 📱 Mobile
+* 📟 Tablet
 
-"ENTER THE ARENA"
+### Desktop
 
-Show major categories as large interactive horizontal cards:
+* Cinematic hero
+* Asymmetric layouts
+* Large typography
+* Horizontal event interactions
 
-01 — COMPETITIONS
-02 — ROBOTICS
-03 — HACKATHONS
-04 — WORKSHOPS
-05 — LECTURES
-06 — EXHIBITIONS
+### Tablet
 
-Each card should have:
+* Simplified grid
+* Reduced visual density
+* Responsive typography
 
-large number
+### Mobile
 
-category name
+* Compact navigation
+* Full-screen menu
+* Vertical content flow
+* Horizontally scrollable event cards
+* Reduced animation intensity
+* No horizontal page overflow
 
-short description
+---
 
-abstract 2D visual
+# 🎨 Visual System
 
-arrow
+## Colors
 
-hover animation
+The interface uses a dark technical palette with accent colors including:
 
-On hover:
+* Deep Black
+* Charcoal
+* Electric Cyan
+* Deep Blue
+* Violet
+* Neon Green
+* White
 
-card expands slightly
+## Typography
 
-border glows
+### Display
 
-background visual changes
+**Space Grotesk**
 
-arrow moves
+Used for:
 
-typography animates
+* Hero headlines
+* Section headings
+* Large numbers
+* Editorial statements
 
-Use horizontal scrolling on desktop and vertical cards on mobile.
+### Technical
 
-==================================================
-7. FEATURED COMPETITIONS
+**IBM Plex Mono**
 
-Create a visually powerful competition section.
+Used for:
 
-Heading:
+* HUD labels
+* Metadata
+* Coordinates
+* Status indicators
+* Technical information
 
-"BUILD. BREAK. REBUILD."
+---
 
-Include competition cards such as:
+# ✨ Motion & Interaction
 
-ROBOTICS
-AI & CODING
-AEROMODELLING
-DRONE CHALLENGE
-INNOVATION
-ENGINEERING
+The website uses restrained motion to create a futuristic experience.
 
-Each card should contain:
+### Implemented interactions
 
-competition title
+* Scroll reveal animations
+* Text slide-up
+* Hover transitions
+* Animated grid
+* Particle movement
+* Circuit animations
+* Number counters
+* Timeline progress
+* Navbar transformation
+* Button hover effects
+* Subtle parallax
+* Marquee elements
 
-short description
+The design also respects:
 
-deadline/status
+`prefers-reduced-motion`
 
-"VIEW CHALLENGE →"
+to provide a more accessible experience.
 
-Use real Techfest-style competition concepts, but keep the copy concise.
+---
 
-Make this section feel competitive and energetic.
+# 🧩 Technical Architecture
 
-==================================================
-8. ROBOTICS / TECHNOLOGY FEATURE
+The project uses a modern React-based architecture.
 
-Create a large immersive section titled:
+### Core technologies
 
-"WHERE MACHINES COME ALIVE."
+* React
+* TypeScript
+* Tailwind CSS
+* TanStack Start
+* Motion for React
+* Lucide Icons
+* SVG
+* CSS animations
 
-Use a dark visual area with an abstract 2D robotics/circuit graphic.
+### Structure
 
-Add animated:
+```text
+src/
+│
+├── components/
+│   ├── Navbar
+│   ├── Hero
+│   ├── Intro
+│   ├── EventCategories
+│   ├── CompetitionGrid
+│   ├── RoboticsFeature
+│   ├── Speakers
+│   ├── Timeline
+│   ├── Legacy
+│   ├── Stats
+│   ├── FinalCTA
+│   └── Footer
+│
+├── routes/
+│   ├── index.tsx
+│   ├── register.tsx
+│   ├── events.tsx
+│   ├── competitions.tsx
+│   ├── workshops.tsx
+│   ├── speakers.tsx
+│   └── about.tsx
+│
+└── styles.css
+```
 
-circuit paths
+---
 
-sensor-like dots
+# 🛠️ Getting Started
 
-scanning lines
+## 1. Clone the repository
 
-data streams
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
 
-Text:
+## 2. Navigate into the project
 
-"From autonomous machines to intelligent systems, Techfest turns engineering into an experience."
+```bash
+cd techfest-landing-page
+```
 
-Add CTA:
+## 3. Install dependencies
 
-EXPLORE ROBOTICS →
+```bash
+npm install
+```
 
-==================================================
-9. SPEAKERS / MINDS OF TOMORROW
+## 4. Start the development server
 
-Create a premium speaker section.
-
-Heading:
-
-"THE MINDS SHAPING TOMORROW"
-
-Display speaker cards with large monochrome portraits and subtle color overlays.
-
-Each card:
-Name
-Role
-Organization
-Topic
-
-Use example placeholders if exact current speaker information is unavailable.
-
-Make the cards editorial rather than generic profile cards.
-
-==================================================
-10. TIMELINE
-
-Create an interactive vertical timeline:
-
-01
-DISCOVER
-
-02
-COMPETE
-
-03
-CREATE
-
-04
-CONNECT
-
-05
-EXPERIENCE
-
-Use animated progress lines and scrolling transitions.
-
-==================================================
-11. TECHFEST LEGACY
-
-Create a section showing the evolution of Techfest.
-
-Heading:
-
-"YEARS OF BUILDING THE FUTURE."
-
-Create a horizontal timeline featuring milestones such as:
-
-2002
-Techfest Trophy + Micromouse
-
-2015–17
-Major science and technology personalities
-
-2018–19
-Guinness World Record
-
-2020–22
-5G + Drone Racing
-
-2023–24
-International expansion
-
-2025
-Global Humanoid Conclave + 1,500+ drone show
-
-Use this as an editorial timeline with large years and animated transitions.
-
-==================================================
-12. NUMBERS SECTION
-
-Create a dramatic statistics section.
-
-Display:
-
-50K+
-Participants
-
-100+
-Events
-
-1000+
-Institutions
-
-20+
-Years of Innovation
-
-Use oversized typography but keep the layout elegant.
-
-Animate numbers when they enter the viewport.
-
-==================================================
-13. FINAL CTA
-
-Create a huge final section.
-
-Headline:
-
-"READY TO BUILD
-WHAT'S NEXT?"
-
-Supporting text:
-
-"Your next idea could become tomorrow's breakthrough."
-
-Buttons:
-
-REGISTER FOR TECHFEST →
-EXPLORE EVENTS →
-
-Add a subtle animated grid/circuit background.
-
-==================================================
-14. FOOTER
-
-Create a premium dark footer.
-
-TECHFEST
-IIT BOMBAY
-
-Links:
-Events
-Competitions
-Workshops
-Speakers
-Schedule
-About
-Contact
-
-Social:
-Instagram
-LinkedIn
-YouTube
-X
-
-Location:
-IIT Bombay
-Powai, Mumbai, India
-
-Bottom:
-
-© 2026 TECHFEST, IIT BOMBAY
-
-Add a small line:
-
-"ENGINEERING TOMORROW."
-
-==================================================
-15. ANIMATIONS
-
-Use smooth, premium animations.
-
-Implement:
-
-scroll reveal
-
-text slide-up animations
-
-subtle parallax
-
-glowing borders
-
-hover transformations
-
-animated grid
-
-particle movement
-
-marquee text
-
-number counters
-
-section transitions
-
-magnetic buttons where appropriate
-
-navbar transition on scroll
-
-Animations must be smooth and subtle.
-
-Do NOT over-animate the website.
-
-Use CSS animations and lightweight JavaScript/React animations.
-
-==================================================
-16. TYPOGRAPHY
-
-Use a modern combination of:
-
-Primary:
-Space Grotesk / Inter / Sora
-
-Secondary:
-IBM Plex Mono or another technical monospace font
-
-Use:
-
-oversized headlines
-
-tight letter spacing
-
-uppercase labels
-
-monospace metadata
-
-Typography should be one of the main visual elements.
-
-==================================================
-17. IMAGE TREATMENT
-
-Use high-quality technology/festival imagery where appropriate.
-
-Images should have:
-
-dark overlays
-
-monochrome treatment
-
-blue/cyan gradients
-
-grain
-
-sharp cropping
-
-Avoid generic smiling-business-people stock photography.
-
-Prioritize:
-robotics
-engineering
-students building
-drones
-technology
-IIT campus
-large technology events
-
-==================================================
-18. RESPONSIVE DESIGN
-
-Desktop:
-
-cinematic full-screen hero
-
-asymmetric layouts
-
-horizontal event cards
-
-large typography
-
-Tablet:
-
-simplified grid
-
-preserve visual hierarchy
-
-Mobile:
-
-clean vertical layout
-
-sticky compact navigation
-
-horizontally scrollable event cards
-
-readable typography
-
-optimized animations
-
-no horizontal overflow
-
-==================================================
-19. TECHNICAL REQUIREMENTS
-
-Build using:
-
-React
-
-TypeScript
-
-Tailwind CSS
-
-Lucide icons
-
-Framer Motion if useful
-
-Create reusable components:
-
-Navbar
-Hero
-Intro
-EventCategories
-CompetitionGrid
-RoboticsFeature
-Speakers
-Timeline
-Legacy
-Stats
-FinalCTA
-Footer
-
-Use clean component architecture.
-
-Make buttons functional:
-
-Register buttons should navigate to /register
-
-Events should navigate to /events
-
-Competitions should navigate to /competitions
-
-Workshops should navigate to /workshops
-
-Speakers should navigate to /speakers
-
-About should navigate to /about
-
-If these pages don't exist yet, create simple placeholder pages with the same visual language.
-
-==================================================
-20. FINAL QUALITY BAR
-
-The final result should look like a website that could realistically win a frontend/design competition.
-
-Prioritize:
-
-Strong visual identity
-
-Premium typography
-
-Excellent spacing
-
-Smooth interactions
-
-Strong hero section
-
-Original layout
-
-Mobile responsiveness
-
-Fast loading
-
-Accessibility
-
-Clean code
-
-The first 5 seconds of the website should immediately communicate:
-
-TECHFEST
-IIT BOMBAY
-SCIENCE + TECHNOLOGY + INNOVATION
-
-Make the design memorable, futuristic and distinctly Indian/IIT-inspired without using clichés.
-
-Do not create a generic festival website.
-Create a next-generation digital identity for Techfest.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/e42166c1-bc76-4a22-857c-7b4965179bc0).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
 npm run dev
 ```
+
+## 5. Open in browser
+
+Visit the local development URL shown in your terminal.
+
+---
+
+# 📂 Routes
+
+| Route           | Purpose                    |
+| --------------- | -------------------------- |
+| `/`             | Main Techfest landing page |
+| `/register`     | Registration               |
+| `/events`       | Events                     |
+| `/competitions` | Competitions               |
+| `/workshops`    | Workshops                  |
+| `/speakers`     | Speakers                   |
+| `/about`        | About Techfest             |
+
+---
+
+# ♿ Accessibility
+
+Accessibility was considered throughout the interface.
+
+The project includes:
+
+* Semantic HTML
+* Keyboard-accessible navigation
+* Descriptive image alt text
+* Responsive typography
+* High-contrast text
+* Reduced-motion support
+* Accessible interactive elements
+* Single primary H1 per page
+
+---
+
+# 🚫 No 3D / WebGL
+
+A core requirement of this concept was:
+
+> **NO 3D ASSETS.**
+
+The visual depth is created entirely through:
+
+* CSS
+* SVG
+* 2D particles
+* Gradients
+* Grid systems
+* Typography
+* Motion
+* Image treatments
+* Circuit patterns
+* Scanning effects
+
+This keeps the experience visually rich while avoiding the performance overhead of 3D/WebGL.
+
+---
+
+# 💡 Inspiration
+
+The project was inspired by the intersection of:
+
+**Science × Technology × Engineering × Competition × Innovation**
+
+The visual identity combines the energy of a technology festival with the precision of an engineering interface.
+
+The objective was not to recreate the existing Techfest website, but to explore:
+
+> **What could the digital identity of Techfest look like in the next generation?**
+
+---
+
+# 🧪 Future Improvements
+
+Potential future additions include:
+
+* Live event schedule
+* Real-time competition status
+* Registration system
+* Speaker database
+* Event filtering
+* Search functionality
+* Interactive campus map
+* Live countdown
+* Participant dashboard
+* Authentication
+* CMS for event management
+* Real-time announcements
+* Official Techfest API/data integration
+
+---
+
+# 🏗️ Project Status
+
+**Status:** 🚀 Prototype / Design Concept
+
+The current project focuses primarily on the visual experience and frontend implementation.
+
+Production deployment would require official Techfest content, verified statistics, official event information, authorized branding/assets and backend integrations.
+
+---
+
+# 👨‍💻 Built With
+
+**Frontend:** React + TypeScript
+
+**Styling:** Tailwind CSS + Custom CSS
+
+**Routing:** TanStack Start
+
+**Animations:** Motion for React + CSS
+
+**Icons:** Lucide
+
+**Graphics:** SVG + CSS
+
+**Development:** Lovable
+
+---
+
+# 📜 Disclaimer
+
+This project is an **independent UI/UX and frontend development concept inspired by Techfest, IIT Bombay**.
+
+It is not affiliated with, endorsed by, sponsored by, or officially connected to Techfest or IIT Bombay.
+
+All placeholder content, statistics and fictional speaker information should be replaced with verified official information before any official/public deployment.
+
+---
+
+# ⭐ If You Like This Project
+
+If you found this concept interesting, consider giving the repository a ⭐ on GitHub.
+
+---
+
+## ENGINEERING TOMORROW.
+
+**TECHFEST '26 — IIT BOMBAY**
+
+`BUILD / COMPETE / CREATE / CONNECT`
